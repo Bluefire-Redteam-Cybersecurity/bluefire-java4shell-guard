@@ -88,7 +88,7 @@ Other Bluefire Redteam checkers:
 
 This repository is a checker. It reads a version you supply, the output of `java -version`, CPU flags, and JVM flags. It does not send exploit traffic and it does not test whether Base64 decoding can crash a process. A result is not proof that a host was compromised, and it is not proof that a host is safe.
 
-Use it only on systems you are authorized to assess. The report is not legal advice and it does not replace the Oracle, CISA, or Red Hat advisory. The software is provided as-is, without warranty, under the [MIT License](LICENSE).
+Use it only on systems you are authorized to assess. The report is not legal advice and it does not replace the Oracle, CISA, or Red Hat advisory. The software is provided as-is, without warranty, under the [MIT License](LICENSE). To report a bug in this checker, see [SECURITY.md](SECURITY.md).
 
 ## Work with Bluefire Redteam
 
