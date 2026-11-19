@@ -6,8 +6,7 @@ Safe exposure check for CVE-2026-114938 (Java4Shell).
 The check compares a Java runtime version, the host CPU flags, and JVM
 startup flags with the public vendor tables. It does not decode Base64,
 does not send a payload, and does not test whether a process can be
-crashed or taken over. See README for the disclaimer and LICENSE for
-the MIT terms.
+crashed or taken over. See DISCLAIMER.md, README, and LICENSE.
 """
 
 from __future__ import annotations
@@ -790,7 +789,7 @@ def render_markdown(findings: list[Finding]) -> str:
         "## Disclaimer",
         "",
         "Checker only. This report is not proof of compromise or of safety, and it is not legal advice. "
-        "The tool is provided as-is under the MIT License.",
+        "The tool is provided as-is under the MIT License. The full text is in DISCLAIMER.md.",
         "",
         "## See also",
         "",

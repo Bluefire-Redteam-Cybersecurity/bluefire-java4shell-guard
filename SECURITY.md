@@ -1,6 +1,6 @@
 # Security policy
 
-Java4Shell Guard is a checker. It compares a Java version, CPU flags, and JVM flags. It does not send a payload.
+Java4Shell Guard is a checker. It compares a Java version, CPU flags, and JVM flags. It does not send a payload. Use of this repository is covered by [DISCLAIMER.md](DISCLAIMER.md).
 
 ## Report a bug in this repository
 
