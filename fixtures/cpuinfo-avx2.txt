@@ -1,0 +1,4 @@
+processor : 0
+vendor_id : AuthenticAMD
+model name : AMD EPYC example without VBMI
+flags : fpu avx avx2 bmi2

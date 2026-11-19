@@ -1,0 +1,4 @@
+processor : 0
+vendor_id : GenuineIntel
+model name : Intel(R) Xeon(R) example
+flags : fpu avx avx2 bmi2 avx512f avx512bw avx512vbmi avx512_vbmi

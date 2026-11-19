@@ -1,0 +1,10 @@
+name,version,cpu,workaround
+jira-prod,17.0.21,avx512vbmi,
+keycloak-arm,17.0.12,arm64,
+corretto-fixed,17.0.21.1.2,avx512f avx512bw avx512vbmi bmi2,
+java8-standard,1.8.0_511,avx512vbmi,
+java8-perf,8u511b33-perf,avx512vbmi,
+java21-mitigated,21.0.13,avx512vbmi,base64-off
+billing-11,11.0.33,avx512vbmi,
+feature-22,22.0.2,avx512vbmi,
+graal-ee,21.3.20.0.3,avx512vbmi,
